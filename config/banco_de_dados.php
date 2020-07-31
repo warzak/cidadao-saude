@@ -1,12 +1,12 @@
 <?php
 // usado para conectar ao mysql
 $host = "localhost";
-$banco = "cidadao_saude";
-$usuario = "root";
-$senha = "";
+$dbname = "cidadao_saude";
+$username = "teste";
+$password = "teste";
   
 try {
-    $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
+    $con = new PDO("mysql:host={$host};dbname={$dbname}", $username, $password);
 }
   
 // show error
